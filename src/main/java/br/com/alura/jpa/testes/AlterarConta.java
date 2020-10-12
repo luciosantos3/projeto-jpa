@@ -13,10 +13,10 @@ public class AlterarConta {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("contas");
 		EntityManager em = emf.createEntityManager();
 		
-		Conta contaLucio = em.find(Conta.class, 1l);
+		Conta conta = em.find(Conta.class, 1l);
 		
 		em.getTransaction().begin();
-		contaLucio.setSaldo(30.0);
+		conta.setSaldo(30.0);
 		em.getTransaction().commit();
 		
 	}
