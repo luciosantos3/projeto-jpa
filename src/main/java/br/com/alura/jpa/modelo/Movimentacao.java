@@ -13,8 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
-import br.com.alura.jpa.util.TipoMovimentacao;
-
 @Entity
 public class Movimentacao {
 	

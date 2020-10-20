@@ -11,7 +11,7 @@ import javax.persistence.Persistence;
 import br.com.alura.jpa.modelo.Categoria;
 import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
-import br.com.alura.jpa.util.TipoMovimentacao;
+import br.com.alura.jpa.modelo.TipoMovimentacao;
 
 public class TestaRelacionamentoMovimentacaoCategoria {
 

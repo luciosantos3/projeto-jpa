@@ -1,4 +1,4 @@
-package br.com.alura.jpa.util;
+package br.com.alura.jpa.modelo;
 
 public enum TipoMovimentacao {
 	
